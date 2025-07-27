@@ -35,7 +35,7 @@ const Map = ({ coords, places, setCoords, setBounds, setChildClicked }) => {
         yesIWantToUseGoogleMapApiInternals
         onGoogleApiLoaded={({ map }) => {
           if (map?.getCenter) {
-            const center = map.getCenter();
+            // const center = map.getCenter();
             // console.log('Map loaded, center:', center);
           }
         }}
