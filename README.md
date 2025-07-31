@@ -1,26 +1,54 @@
-# Travel Advisor
+# Journey-Guide: Travel Advisor 🌍
 
-![Travel Advisor](https://i.ibb.co/qph2cZn/image.pngg)
+Journey Guide is an advanced travel companion web app built with React. It offers powerful search, interactive Google Maps, real-time weather and curated recommendations for restaurants, hotels, and attractions—fetched using APIs.
 
-### [🌟 Become a top 1% Next.js 13 developer in only one course](https://jsmastery.pro/next13)
-### [🚀 Land your dream programming job in 6 months](https://jsmastery.pro/masterclass)
+![Demo Screenshot](Images/Demo.png)
 
-## Introduction
-Build and Deploy an advanced Travel Companion Application using Google Maps. With Geolocation, Google Maps API, Searching for places, Fetching restaurants, hotels and attractions based on location from specialized Rapid APIs, data filtering and much more, this Travel Advisor App is the best Maps Application that you can currently find on YouTube and on the entire internet.
+## ✈️ Features
 
-In this video, you'll learn:
+- **Interactive Google Maps**
+- **Smart Search & Filtering**
+- **Real-Time Data**
+- **Modern UI/UX**
+- **Developer-Focused Architecture**
 
-- Advanced React Best Practices such as folder & file structure, hooks and refs
-- Creating a User Interface using Material UI
-- Working with Google Maps API
-- And most importantly fetching data from unlimited sources using RapidAPI
-- Essentially, you'll become the master of working with APIs
+## 🚀 Getting Started
 
-[RapidAPI](https://rapidapi.com/hub?utm_source=youtube.com/JavaScriptMastery&utm_medium=DevRel&utm_campaign=DevRel)
-[Travel Advisor API](https://rapidapi.com/apidojo/api/travel-advisor?utm_source=youtube.com/JavaScriptMastery&utm_medium=DevRel&utm_campaign=DevRel)
-[Open Weather Map API](https://rapidapi.com/community/api/open-weather-map?utm_source=youtube.com/JavaScriptMastery&utm_medium=DevRel&utm_campaign=DevRel)
+### Prerequisites
 
-## Stay up to date with new projects
-New major projects coming soon, subscribe to the mailing list to stay up to date https://javascriptmastery.eo.page/mailing-list.
+- [Node.js](https://nodejs.org/) (v14 or later)
+- [npm](https://www.npmjs.com/) (or yarn)
 
-Setup: run ```npm i && npm start``` to start the development server
+### Installation
+
+1. **Clone the Repository**
+```bash
+git clone https://github.com/mannatsingla22/Journey-Guide.git
+cd Journey-Guide
+```
+
+2. **Install Dependencies**
+```bash
+npm install
+```
+
+
+3. **Set up Environment Variables**
+- Create a `.env.local` file in the root directory
+- Add your **Google Maps API** key and required **RapidAPI** keys
+
+4. **Run the App**
+```bash
+set NODE_OPTIONS=--openssl-legacy-provider && npm start
+```
+
+5. **Open in Browser**
+- Visit `http://localhost:3000`
+## 🛠️ Tech Stack
+
+| Technology              | Purpose                             |
+|-------------------------|-------------------------------------|
+| React                   | Core UI library                     |
+| React Router            | Client-side routing                 |
+| Axios                   | HTTP requests                       |
+| Node.js                 | Backend                             |
