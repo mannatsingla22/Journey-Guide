@@ -34,7 +34,7 @@ npm install
 
 
 3. **Set up Environment Variables**
-- Create a `.env.local` file in the root directory
+- Create a `.env` file in the root directory
 - Add your **Google Maps API** key and required **RapidAPI** keys
 
 4. **Run the App**
